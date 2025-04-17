@@ -1,0 +1,22 @@
+.animation-shadow{
+  animation:sh 4s ease-in-out infinite;
+  animation-delay: 1s
+}
+
+@keyframes sh{
+  0%{
+    box-shadow: none;
+  }
+  
+  35%{
+    box-shadow: 0px 0px 25px 1px var(--hover);
+  }
+
+  60%{
+    box-shadow: 0px 0px 25px 1px var(--hover);
+  }
+
+  100%{
+    box-shadow: none;
+  }
+}
